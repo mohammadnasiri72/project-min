@@ -1,0 +1,1050 @@
+* {
+    font-family: Roboto;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.row::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.icon-search {
+    margin-right: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 9px;
+}
+
+.icon-search:hover {
+    color: aqua;
+}
+
+.text-search {
+    color: rgba(255, 255, 255, 0.384);
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: rgb(23, 34, 50);
+    width: 100%;
+    height: 800px;
+}
+
+.icon-media {
+    color: rgba(255, 255, 255, 0.281);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.icon-media:hover {
+    color: white;
+}
+
+.top-bar a:nth-child(3) {
+    margin-left: 100px;
+}
+
+.join {
+    color: rgba(255, 255, 255, 0.281);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.top-bar span:nth-child(8) {
+    color: rgba(255, 255, 255, 0.281);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.top-bar a:nth-child(7) {
+    margin-left: 50px;
+}
+
+.join:hover {
+    color: rgba(0, 255, 255, 0.425);
+}
+
+.hr1 {
+    color: rgba(255, 255, 255, 0.527);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-picture {
+    width: 100%;
+    height: 800px;
+    background-image: url("../image/nody-عکس-دسته-بازی-برای-تصویر-زمینه-1628502985.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    background-color: rgb(23, 34, 50);
+    background-blend-mode: multiply;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 150px;
+    display: block;
+    padding-top: 30px;
+}
+
+.menu-item {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 45px;
+    font-size: 14PX;
+}
+
+.main-picture a:nth-child(1) {
+    margin-right: 200px;
+}
+
+.menu-item:hover {
+    color: aqua;
+}
+
+.main-picture a:nth-child(6) {
+    color: aqua;
+}
+
+.main-text {
+    color: aqua;
+    text-align: center;
+    font-size: 150px;
+}
+
+.main-picture h1:nth-child(9) {
+    margin-top: 50px;
+}
+
+.Description {
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Description1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.main-gallery {
+    width: 100%;
+    height: 2900px;
+    background-color: rgb(23, 34, 50);
+}
+
+.box-image {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.link-picture {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 40px;
+    text-decoration: underline;
+    color: aqua;
+    padding: 0;
+    display: block;
+    width: 230px;
+}
+
+.link-picture:hover {
+    color: white;
+}
+
+.box-gallery1 {
+    width: 30%;
+    margin-left: 100px;
+}
+
+.box-gallery2 {
+    width: 50%;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+.title-image {
+    width: 650px;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.box-image2 {
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.icon-arrow {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.479);
+    padding: 2px;
+    transition: 0.2S;
+}
+
+.icon-arrow:hover {
+    color: white;
+}
+
+.title-icon a:nth-child(2) {
+    margin-right: 150px;
+}
+
+.title-icon {
+    margin-top: 160px;
+}
+
+.title-slide {
+    margin-top: 150px;
+    color: yellow;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.box-picture {
+    width: 600px;
+    height: 400px;
+    background-image: url("../image/Rectangle-3.webp");
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.p-link-image {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.link-image {
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 100;
+}
+
+.link-image:hover {
+    background-color: orange;
+}
+
+.box {
+    width: 40%;
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.link-text-image {
+    color: white;
+    font-size: 40px;
+}
+
+.p-link-text-image {
+    text-align: left;
+    float: inline-end;
+    margin-top: 50px;
+}
+
+.link-text-image:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: 100;
+}
+
+.p-date {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.date:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.comment {
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.number-comment {
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.number-comment:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.box-picture2 {
+    width: 600px;
+    height: 400px;
+    background-image: url("../image/Rectangle-2.webp");
+    background-size: 100% 100%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.link-text-image2 {
+    color: white;
+    font-size: 40px;
+}
+
+.p-link-text-image2 {
+    text-align: left;
+    margin-left: 150px;
+    float: inline-end;
+    margin-right: -100px;
+    margin-top: 50px;
+}
+
+.link-text-image2:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.date2 {
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.p-date2 {
+    margin-left: 150px;
+}
+
+.date2:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.comment2 {
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.number-comment2 {
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+.number-comment2:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.title-slider {
+    margin-top: 150px;
+    color: blueviolet;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.game-tool-picture {
+    width: 300px;
+    height: 200px;
+    background-image: url("../image/Rectangle-60-9.webp");
+    background-size: 100% 100%;
+}
+
+.game-tool {
+    width: 20%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.p-link-image-game-tool {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.link-image-game-tool {
+    background-color: aqua;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.link-image-game-tool:hover {
+    background-color: orange;
+}
+
+.p-game-tool-text-image {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.game-tool-text-image {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.game-tool-text-image:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.date-image {
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.p-date-image {
+    margin-top: 15px;
+}
+
+.date-image:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.comment-image {
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: 100;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.number-comment-image {
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.number-comment-image:hover {
+    color: rgba(255, 255, 0, 0.849);
+}
+
+.p-title-image {
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 20px;
+}
+
+.p-read-more {
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.icon-circle-plus {
+    font-size: 25px;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+.link-read-more {
+    color: yellow;
+}
+
+.link-read-more:hover {
+    color: white;
+}
+
+.game-gallery {
+    margin-right: 100px;
+}
+
+.game-tool-picture2 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../image/Rectangle-58-1.webp");
+    background-size: 100% 100%;
+}
+
+.game-tool-picture3 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../image/Rectangle-60-10.webp");
+    background-size: 100% 100%;
+}
+
+.game-tool-picture4 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../image/Rectangle-60-7.webp");
+    background-size: 100% 100%;
+}
+
+.text-slider {
+    margin-top: 150px;
+    color: aqua;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.interest-game {
+    margin-right: 90px;
+
+}
+
+.interest-game-box {
+    width: 15%;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.interest-game-image {
+    width: 100%;
+    height: 170px;
+    background-image: url("../image/Rectangle-60-4.webp");
+    background-size: 100% 100%;
+}
+
+.title-interest-game-image {
+    color: rgba(255, 255, 255, 0.829);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.title-interest-game-image:hover {
+    color: rgba(255, 255, 0, 0.747);
+}
+
+.interest-game-image2 {
+    width: 100%;
+    height: 170px;
+    background-image: url("../image/Rectangle-60-3.webp");
+    background-size: 100% 100%;
+}
+
+.interest-game-image3 {
+    width: 100%;
+    height: 170px;
+    background-image: url("../image/Rectangle-60-2.webp");
+    background-size: 100% 100%;
+}
+
+.interest-game-image4 {
+    width: 100%;
+    height: 170px;
+    background-image: url("../image/Rectangle-60-1.webp");
+    background-size: 100% 100%;
+}
+
+.interest-game-image5 {
+    width: 100%;
+    height: 170px;
+    background-image: url("../image/Rectangle-79.webp");
+    background-size: 100% 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.icon-up {
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: yellow;
+}
+
+.game-portal {
+    width: 100%;
+    height: 800px;
+    background-image: url("../image/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-blend-mode: multiply;
+}
+
+.heading-game-portal {
+    font-size: 150px;
+    color: aqua;
+
+    margin-left: 800px;
+}
+
+.game-portal h1:nth-child(1) {
+    padding-top: 200px;
+}
+
+.text-game-portal {
+    color: white;
+    margin-left: 800px;
+    font-weight: 100;
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+.main-gallery-news {
+    width: 100%;
+    height: 2650px;
+    background-color: rgb(23, 34, 50);
+}
+
+.news-image {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-3-1.webp");
+    background-size: 100% 100%;
+    margin-right: 130px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.link-image-news {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.date-news {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 30%;
+    margin-right: 50px;
+}
+
+.icon-date-news {
+    position: relative;
+    right: 32%;
+    color: yellow;
+}
+
+.link-text-image-news {
+    color: rgba(255, 255, 255, 0.589);
+    display: block;
+    margin-top: 15px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.link-image-news:hover p {
+    color: yellow;
+}
+
+.news-image2 {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-4-1.webp");
+    background-size: 100% 100%;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.icon-date-news2 {
+    position: relative;
+    right: 25%;
+    color: yellow;
+}
+
+.date-news2 {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 25%;
+    margin-right: 50px;
+}
+
+.main-image {
+    margin-top: 50px;
+
+}
+
+.news-image3 {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-5.webp");
+    background-size: 100% 100%;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.icon-date-news3 {
+    position: relative;
+    right: 22%;
+    color: yellow;
+}
+
+.date-news3 {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 22%;
+    margin-right: 50px;
+}
+
+.icon-date-news4 {
+    position: relative;
+    right: 18%;
+    color: yellow;
+}
+
+.date-news4 {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 18%;
+    margin-right: 50px;
+}
+
+.icon-date-news3 {
+    position: relative;
+    right: 22%;
+    color: yellow;
+}
+
+.date-news3 {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 22%;
+    margin-right: 50px;
+}
+
+.icon-date-news4 {
+    position: relative;
+    right: 15%;
+    color: yellow;
+}
+
+.date-news4 {
+    color: rgba(255, 255, 255, 0.582);
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+    right: 15%;
+    margin-right: 50px;
+}
+
+.news-image4 {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-6.webp");
+    background-size: 100% 100%;
+    margin-right: 130px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.news-image5 {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-1-1.webp");
+    background-size: 100% 100%;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.news-image6 {
+    width: 400px;
+    height: 300px;
+    background-image: url("../image/Rectangle-60-2-1.webp");
+    background-size: 100% 100%;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    width: 80%;
+    height: 500px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.main-text-subscribe {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 100px;
+}
+
+.text-subscribe {
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.form-email {
+    text-align: center;
+    background-color: yellow;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-form {
+    background-color: yellow;
+    padding: 20px 12px;
+    border-radius: 10px;
+    border: solid 2px black;
+    width: 90%;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px 1px white;
+    outline: none;
+}
+
+.text-form {
+    margin-left: 28%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.link-text-form {
+    text-decoration: underline;
+}
+
+.link-text-form:hover {
+    color: darkgreen;
+}
+
+.follow-us {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.text-follow-us {
+    color: aqua;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.social-media {
+    width: 30%;
+    height: 300px;
+    margin-left: 200px;
+}
+
+.our-social {
+    color: yellow;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.box-end {
+    margin-top: 100px;
+}
+
+.link-our-social {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.social-media a:nth-child(2) {
+    margin-left: -10px;
+}
+
+.link-our-social:hover {
+    color: yellow;
+}
+
+.text-our-social {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.tell-our-social {
+    color: white;
+    border: yellow 1px solid;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.icon-tell {
+    color: yellow;
+}
+
+.tell-our-social:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.tell-our-social:hover i {
+    color: black;
+}
+
+.quick-links {
+    width: 15%;
+    height: 300px;
+    margin-left: 150px;
+
+}
+
+.title-quick-links {
+    color: yellow;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.link-quick-links {
+    color: rgba(255, 255, 255, 0.568);
+    font-weight: 100;
+    transition: 0.2s;
+
+}
+
+.p-link-quick-links {
+    margin-top: 20px;
+}
+
+.quick-links p:nth-child(2) {
+    margin-top: 50px;
+}
+
+.link-quick-links:hover {
+    color: white;
+}
+
+.questions {
+    width: 15%;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.title-questions {
+    color: yellow;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.text-questions {
+    color: white;
+    font-weight: 100;
+}
+
+.questions p:nth-child(3) {
+    margin-bottom: 40px;
+}
+
+.tell-questions {
+    color: white;
+    margin-left: 10px;
+}
+
+.tell-questions:hover {
+    color: yellow;
+}
+
+.email-questions {
+    color: white;
+    text-decoration: underline;
+}
+
+.p-email-questions {
+    margin-top: 30px;
+}
+
+.email-questions:hover {
+    color: yellow;
+}
+
+.footnote {
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.zemez {
+    color: yellow;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.zemez:hover {
+    color: white;
+}
+
+.text-zemez {
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.text-footnote {
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 40px;
+    line-height: 25px;
+}
+.arrow-search{
+    background-color: yellow;
+    border: black solid 2px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
